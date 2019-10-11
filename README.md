@@ -1,3 +1,14 @@
+# Ally square payment form example
+
+This is a fork of the ost recent Square payment form example repository.  The issue we are trying
+to demonstrate is that a simple Square "card" element does not call the inputEventReceived callback
+during user input.  We believe that this was the expected behavior as of 10/7/2019.  Following that date,
+we have seen a change in this behavior despite no changes in our codebases.
+
+In this project, we have replaced the individual Square elements with the simple "card" element, and
+added the inputEventReceived callback which logs the event to the console.  We are using our sandbox
+application ID.
+
 # sqpaymentform-nodejs-starterkit
 
 * Ensure you have npm installed (`npm -v` in your terminal). If not please follow the instructions for your OS: https://www.npmjs.com/get-npm
