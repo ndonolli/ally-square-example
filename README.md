@@ -1,6 +1,6 @@
 # Ally square payment form example
 
-This is a fork of the ost recent Square payment form example repository.  The issue we are trying
+This is a fork of the most recent Square payment form example repository.  The issue we are trying
 to demonstrate is that a simple Square "card" element does not call the inputEventReceived callback
 during user input.  We believe that this was the expected behavior as of 10/7/2019.  Following that date,
 we have seen a change in this behavior despite no changes in our codebases.
